@@ -32,13 +32,13 @@ console.log(getRandomElement);
 console.log(array1);
 
 
-// GetFirstElement(array1, 0);
-// GetFirstElement(array2, 0);
-// RemoveLastElement(array1);
-// RemoveLastElement(array2);
-// GetRandomElement(array1);
-// AddElement(array1, 3);
-// AddElement(array2, "punch");
+GetFirstElement(array1, 0);
+GetFirstElement(array2, 0);
+RemoveLastElement(array1);
+RemoveLastElement(array2);
+GetRandomElement(array1);
+AddElement(array1, 3);
+AddElement(array2, "punch");
 
 
 for (let i = 0; i <= 20; i++){
@@ -54,6 +54,12 @@ for (let i = 0; i <= 20; i++){
 
 for (let i = 0; i <= 10; i++){
     console.log(`${i} times 9 = ${i*9}`);
+}
+
+let number = 9;
+for (let i = 1; i <= 10; i++){
+    number = i * number;
+    console.log(number);
 }
 
 let counter = 100
