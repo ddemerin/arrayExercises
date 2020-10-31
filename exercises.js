@@ -24,7 +24,7 @@ let getFirstElement = GetFirstElement(array1, 0);
 let removeLastElement = RemoveLastElement(array1);
 let getRandomElement = GetRandomElement(array2);
 AddElement(array1, 3);
-AddElement(array1, 4)
+AddElement(array1, 4);
 
 console.log(getFirstElement);
 console.log(removeLastElement);
@@ -39,3 +39,25 @@ console.log(array1);
 // GetRandomElement(array1);
 // AddElement(array1, 3);
 // AddElement(array2, "punch");
+
+
+for(let i = 0; i <= 20; i++){
+    if (i % 2 == 0)
+    {
+        console.log(`${i} is even.`);
+    }
+    else
+    {
+        console.log(`${i} is odd.`)
+    }
+}
+
+for(let i = 0; i <= 10; i++){
+    console.log(`${i} times 9 = ${i*9}`);
+}
+
+let counter = 100
+while(counter >= 0){
+    console.log(`The counter is at ${counter}`);
+    counter--;
+}
